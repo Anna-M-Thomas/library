@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font-family: Palatino;
+}
+
+#container {
+	display: flex;
+	width: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+h1 {
+	text-align: center;
+	background-color: #dfdfc9;
+	margin-top: 0;
+	height: 80px;
+	line-height: 80px;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+	font-size: 14px;
+}
+
+#newBookButton{
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+#bookForm {
+  display:none;
+  background-color: beige;
+  text-align: center;
+  line-height: 1.5;
+  padding: 8px;
+  margin-top: 20px;
+  width: 20%;
+}
+
+.book {
+  background-color: #d9f1f9;
+  white-space: pre-line;
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+  width: 20%;
+  border: solid 4px #cec2a4;
+}
